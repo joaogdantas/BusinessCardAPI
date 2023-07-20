@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS cards (
+    id UUID PRIMARY KEY,
+    company VARCHAR(100) NOT NULL,
+    name VARCHAR(300) NOT NULL,
+    phoneNumber VARCHAR(40) NOT NULL,
+    email VARCHAR(150) NOT NULL,
+    site VARCHAR(100) NOT NULL
+);
